@@ -1,0 +1,50 @@
+Stable title: "Stable"
+Horses:
+  Brown:
+    Name: "&fBrown Horse"
+  Black:
+    Name: "&fBlack Horse"
+  Chestnut:
+    Name: "&fChestnut Horse"
+  White:
+    Name: "&fWhite Horse"
+
+Saddle lore:
+  - "&6Tier {tier}"
+  - "&6Level: &f{level}/&f{levelCap}"
+  - "&6Exp: &f{exp%}/100"
+
+Horse armory title: "{player}'s Horse armory"
+Skin menu title: "Skins"
+Skins:
+  Zombie horse armor:
+    Name: "&aZombie &6Horse Armor"
+    Lore:
+      - "&eThis armor can be placed in"
+      - "&ethe horse armory to transform"
+      - "&eyour horse into a &aZombie horse&e."
+  Skeleton horse armor:
+    Name: "&fSkeleton &6Horse Armor"
+    Lore:
+      - "&eThis armor can be placed in"
+      - "&ethe horse armory to transform"
+      - "&eyour horse into a &fSkeleton horse&e."
+
+# Horse name displayed in game.
+Horse name format: "&f{player}&7's horse"
+
+# Maximum level: 40
+# The required experience for each level is calculated using the formula:
+# x + 2x + 3x +... + 39x = 360,000
+# For example, to level up from 10 to 11, it takes approximately 10x experience.
+# Experience can be interpreted as distances travelled
+Experience required to reach maximum level: 360000
+
+Blocks per second:
+  Base value: 8.5
+  Value increased per level: 0.25
+
+# The maximum jump height is 5.125 blocks. Any value exceeding this limit will be capped at 5.125.
+Jump height:
+  Base value: 2.5
+  Value increased per level: 0.0625
